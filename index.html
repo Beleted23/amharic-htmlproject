@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Bele photo studio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.0/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f2f2f2;
+            color: #333;
+        }
+
+        .navbar {
+            background-color: #333;
+        }
+
+        .navbar-brand {
+            font-weight: bold;
+            color: #fff;
+        }
+
+        .content-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 100px;
+            background-color: #fff;
+            padding: 50px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        .content {
+            width: 60%;
+        }
+
+        .content h1,
+        .content h2 {
+            color: #333;
+        }
+
+        .table-container {
+            width: 40%;
+            margin-left: 50px;
+        }
+
+        .table {
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        .table thead {
+            background-color: #333;
+            color: #fff;
+        }
+
+        .table td,
+        .table th {
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="content-container">
+            <div class="content">
+                <center>
+                    <h1 class="display-4">Welcome to Bele Photo studio</h1>
+                    <br>
+                    <h2> እንኳን ደህና መጣችሁ</h2>
+                </center>
+            </div>
+            <div class="table-container">
+                <table class="table table-bordered mt-5">
+                    <thead class="bg-dark text-white">
+                        <tr>
+                            <th>Working days</th>
+                            <th>From</th>
+                            <th>To</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Monday</td>
+                            <td>6am</td>
+                            <td>5pm</td>
+                        </tr>
+                        <tr>
+                            <td>Tuesday</td>
+                            <td>6am</td>
+                            <td>5pm</td>
+                        </tr>
+                        <tr>
+                            <td>Wednesday</td>
+                            <td>6am</td>
+                            <td>5pm</td>
+                        </tr>
+                        <tr>
+                            <td>Thursday</td>
+                            <td>6am</td>
+                            <td>5pm</td>
+                        </tr>
+                        <tr>
+                            <td>Friday</td>
+                            <td>6am</td>
+                            <td>5pm</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
